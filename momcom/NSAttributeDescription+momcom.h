@@ -6,7 +6,9 @@
 //  Copyright (c) 2013 Tom Harrington. All rights reserved.
 //
 
-#import <CoreData/CoreData.h>
+@import CoreData;
+
+extern const NSString *const kUsesScalarAttributeType;
 
 @interface NSAttributeDescription (momcom)
 
